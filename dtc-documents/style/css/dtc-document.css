@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "dtc";
+  src:url("fonts/dtc.eot");
+  src:url("fonts/dtc.eot?#iefix") format("embedded-opentype"),
+    url("fonts/dtc.woff") format("woff"),
+    url("fonts/dtc.ttf") format("truetype"),
+    url("fonts/dtc.svg#dtc") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "dtc" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="dashicons-dtc-"]:before,
+[class*=" dashicons-dtc-"]:before {
+  font-family: "dtc" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dashicons-dtc-icon:before {
+  content: "\61";
+}
+.toplevel_page_dtc_document  .dashicons-dtc-icon{
+	height:50px;width:50px;
+	font-size:24px;
+}
+.widefat {width: 100%;}
+.ss-list-width {min-width:10%}
+.ss-form-width {width:100%}
+.ss-th-width {width:25%}
+.ss-field-width {width:75%}
+label.error { display:block;width:100%; color: red; padding-left: .5em; vertical-align: top; font-weight:600;}
+thead th  {border-bottom: 1px solid #333; text-align: center; font-weight: bold;}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+span.label { border-radius: 0; color:white; text-shadow: none; font-size: 11px; font-weight: normal; padding: 3px 5px 3px;}
+.badge {text-shadow: none;
+font-size: 12px;
+color: #fff;
+border-radius: 10px;
+padding: 1px 15px;
+font-weight: normal;
+line-height: 15px;
+background-color: #ABBAC3!important; }
+.label-info,
+.badge-info { background-color: #3a87ad!important }
+.label-success,.badge-success { background-color: #82af6f!important }
+.label-warning,.badge-warning { background-color: #f0ad4e!important }
+.label-primary, .badge-primary { background-color: #2283c5!important }
+.badge:hover{
+color: #fff;
+}
+.badge-danger { background-color: #ac2925!important }
+.dtc-dropbtn {
+	background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;	
+    padding: 6px 12px;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+	
+}
+
+
+.dtc-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dtc-dropdown-content {
+	display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dtc-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dtc-dropdown-content a:hover {background-color: #f1f1f1}
+
+.dtc-dropdown:hover .dtc-dropdown-content {
+    display: block;
+}
+
+.dtc-dropdown:hover .dtc-dropbtn {
+    background-color: #3e8e41;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+.breadcrumb li+li:before {
+    content:"» ";
+}
+
+
+.post-option {
+	display: block;
+	padding: 8px 0;
+	border-bottom: solid 1px #eee;
+	line-height: 1.5;
+}
+
+.post-option:last-child {
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+.post-option label.post-option-label {
+	width: 20%;
+	display: block;
+	float: left;
+}
+
+.post-option .post-option-value {
+	display: block;
+	margin-left: 25%;
+}
+
+.post-option-value br+br {
+	display: none;
+}
+.post-option-label
+ {
+ margin-top:7px;
+ }
+
+.post-option input,
+.post-option textarea,
+.post-option select {
+	font-size: 12px;
+}
+.large-text{width:300px; margin-top:7px;}
+.handle{
+	padding: 8px 12px;
+	padding-top: 0px;
+}
+.js-example-basic-multiple{
+	width:99%;
+}
+.btn-danger{
+	background: #a02121 !important;
+    border-color: #a02121 #a02121 #a02121 !important;
+	box-shadow: 0 1px 0 #a02121;
+    color: #fff !important;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #a02121, 1px 0 1px #a02121, 0 1px 1px #a02121, -1px 0 1px #a02121;
+}
+.dtc-btn-admin{
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+	position: relative;
+    display: inline-block;
+	font-weight: 400;
+	white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+	color:#fff;
+	border-radius:3px;
+	
+}
+.dtc-btn-delete{
+	background-color:#ac2925;
+	border-color:#761c19;
+}
+.dtc-btn-edit{
+	background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.dtc-btn-edit:hover{
+	color: #fff !important;
+    background-color: #31b0d5 !important;
+    border-color: #269abc !important;
+}
+.dtc-btn-delete:hover {
+    color: #fff !important;
+    background-color: #c9302c !important;
+    border-color: #ac2925 !important;
+}
+.dtc-btn-block {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.dtc-btn-block:hover {
+    color: #fff !important;
+    background-color: #ec971f !important;
+    border-color: #d58512 !important;
+}
+.dtc-btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.dtc-btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+.wpdocList{font-size: 15px;font-style: italic; width:100%;margin-bottom:15px;margin-top:10px;}
+.dtc-dashboard{
+	width:800px; 
+	margin:0 auto;
+	background-color:#333333;
+	border-radius: 10px;
+	padding: 50px 2%;
+    text-align:center;
+}
+.dtc-dashboard h2{
+	font-size: 38px;
+	color:#fff;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.dtc-dashboard p{
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.dtc_doc_btn{
+	display: inline-block;
+    clear: both;
+    padding: 15px 30px;
+    width: auto;
+}
+a.dtc_doc_btn {
+	color: #ffffff;
+    font: 20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    background-color: #2eb3ed;
+    text-decoration:none;
+    border-radius: 5px;
+    box-shadow: #008dc4 0 2px 0;
+    border: 2px solid #2eb3ed;
+    text-align: center;
+}
+
+/* DTC Created CSS */
+
+/* Used when pagination is needed in the document ro categories view. This just makes the
+nav buttons look more like buttons and not impossible to see. */
+.page-numbers {
+    text-align:center;
+    background-color:darkgrey;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:32px;
+    margin:2px;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration: none;
+    color:whitesmoke;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+/* This is used as the identifying color for the current page you are on if pagination is
+being used by the categories or documents menu. */
+.current {
+    color: grey;
+}
+
+/* This is the style used by the bulk action selection checkboxes in the documents and
+categories menu. */
+.dtc-checkbox {
+    width:3%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+/* This is a replication of the wordpress menu option button, but red. It is used to
+emphasize the bulk disable and bulk deletion buttons in the categories and documents
+menus. */
+.button-outline-danger {
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid #aa0000;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #aa0000;
+    background: #f6f7f7;
+    cursor: pointer;
+}
+
+/* This is the above classes reaction to being hovered over, the background, text, and
+border get slightly darker. */
+.button-outline-danger:hover {
+    background: #f0f0f1;
+    border-color: #660000;
+    color: #660000;
+}

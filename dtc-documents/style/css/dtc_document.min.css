@@ -1,0 +1,98 @@
+#grid li.doc-material::before {
+    color: #d5280a;
+    float: left;
+    font-family: FontAwesome;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    height: 30px;
+    padding: 3px 10px 0 0;
+    text-decoration: inherit;
+}
+#grid {padding-left:0;}
+#grid  ul{list-style:none; margin:0; padding:0;}
+#grid  li.doc-material {width:50%; float:left; position:relative; line-height:24px; margin:0 0 4px; font-size:16px;}
+#grid  li.doc-material span{padding-left:0;color:#333}
+
+#grid  li.doc-material:nth-child(2n+1) {clear:left;}
+#grid  li.fa-file-word-o:before {color:#2a5696;}
+#grid  li.fa-file-excel-o:before {color:#71ab18;}
+#grid  li.fa-file-zip-o:before {color:#efc415;}
+#grid  li.fa-link:before {color:#bbbbbb;}
+a.read-more-link{
+	text-decoration:none;
+	box-shadow:none!important;
+}
+
+#grid li.doc-material a {font-family:"Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif; font-size:14px;}
+#grid li.fa-globe:before {color:#3d85c6}
+#grid li.fa-file-powerpoint-o:before{color:#e65618}
+#grid li.fa-file-text-o:before {color:#737373;}
+#grid li.fa-file-image-o:before {color:#0a58d5;}
+#grid li.fa-file-pdf-o:before {color:#d50a0a;}
+#grid li.fa-file-o:before {color:#5a5a5a;}
+
+i.single_doc.fa.fa-file-word-o {
+	color:#2a5696;
+}
+i.single_doc.fa.fa-file-text-o {
+	color:#737373;
+}
+i.single_doc.fa.fa-file-powerpoint-o {
+	color:#e65618;
+}
+i.single_doc.fa.fa-file-zip-o {
+	color:#efc415;
+}
+i.single_doc.fa.fa-file-excel-o {
+	color:#71ab18;
+}
+i.single_doc.fa.fa-file-pdf-o {
+	color:#d50a0a;
+}
+i.single_doc.fa.fa-globe {
+	color:#3d85c6;
+}
+i.single_doc.fa.fa-file-image-o {
+	color:#0a58d5;
+}
+i.single_doc.fa.fa-file-o {
+	color:#5a5a5a;
+}
+.dtc-doc-box {
+    padding: 10px;
+    background: #eaf9ec;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 10px;
+}
+.dtc-doc-box-content {
+    font-size: 12px;
+    color: #666;
+}
+.dtc-doc-box-content p {
+    margin: 0;
+}
+i.single_doc {
+    font-size: 24px;
+    padding-right: 5px;
+}
+.dtc-doc-box-title a {
+    font-size: 14px;
+    text-decoration: none!important;
+}
+.list-content {
+    background-color: transparent;
+    transition-duration: 0.4s;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    padding: 7px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.list-content:hover {
+    background-color: #bbb;
+}
